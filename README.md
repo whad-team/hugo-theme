@@ -4,11 +4,14 @@
 
 Install [Hugo](https://gohugo.io/installation/) and **[dart-sass](https://gohugo.io/functions/resources/tocss/#dart-sass)**.
 
-Import as [hugo module](https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme) in `config.toml`:
+Import the theme:
+```
+git clone https://github.com/RCayre/insa-hugo-theme themes/insa-hugo-theme
+```
+
+and add it in `config.toml`:
 ```toml
-[module]
-[[module.imports]]
-  path = 'github.com/RCayre/insa-hugo-theme'
+theme = 'insa-hugo-theme'
 ```
 
 ## Configuration
