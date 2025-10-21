@@ -11,7 +11,7 @@
 /* ====== Colors ====== */
 
 :root {
-    --block-text-color: #a6a6a6;
+    --block-text-color: #333;
 }
 
 /* ======= Base ======= */
@@ -465,7 +465,7 @@ select {
   color: #a2a6af;
 }
 .doc-content {
-  margin-left: 230px;
+  margin-left: 250px;
 }
 .doc-section {
   padding-top: 15px;
@@ -551,8 +551,14 @@ select {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+div.highlight {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .callout-block {
-  padding: 30px;
+  padding: 10px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -573,9 +579,9 @@ select {
 .callout-block .icon-holder {
   font-size: 30px;
   position: absolute;
-  left: 30px;
-  top: 30px;
-  color: rgba(0, 0, 0, 0.25);
+  left: 10px;
+  top: 5px;
+  color: rgba(0, 0, 0, 0.35);
 }
 .callout-block .content {
   margin-left: 60px;
@@ -1059,6 +1065,7 @@ select {
 }
 .promo-block .highlight {
   color: rgba(0, 0, 0, 0.4);
+  margin-left: 30px;
 }
 .promo-block .btn-cta {
   background: rgba(0, 0, 0, 0.35);
@@ -1169,6 +1176,15 @@ select {
   margin-bottom: 60px;
   color: #616670;
 }
+
+.cards-section .intro p {
+  text-align: justify;
+}
+
+.cards-section .intro h1 {
+  margin-bottom: 1em;
+}
+
 .cards-section .cards-wrapper {
   max-width: 860px;
   margin-left: auto;
