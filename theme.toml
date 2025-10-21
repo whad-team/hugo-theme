@@ -1,8 +1,8 @@
-name = "INSA hugo theme"
+name = "WHAD hugo theme"
 license = "MIT"
-licenselink = "https://github.com/RCayre/insa-hugo-theme/blob/main/LICENSE"
-description = "Minimal INSA Lab theme for hugo"
-homepage = "https://github.com/RCayre/insa-hugo-theme/"
+licenselink = "https://github.com/whad-team/hugo-theme/blob/main/LICENSE"
+description = "Minimal WHAD team derived from INSA Lab's minimal theme for hugo"
+homepage = "https://github.com/whad-team/hugo-theme/"
 demosite = ""
 tags = ["minimal", "dark", "blog", "sass", "multilingual"]
 features = ["blog", "sass", "dark", "multilingual"]

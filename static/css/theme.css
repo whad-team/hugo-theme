@@ -7,6 +7,13 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* Theme default */
+
+/* ====== Colors ====== */
+
+:root {
+    --block-text-color: #888;
+}
+
 /* ======= Base ======= */
 body {
   font-family: 'Open Sans', arial, sans-serif;
@@ -583,19 +590,19 @@ select {
 }
 .callout-info {
   background: #58bbee;
-  color: #fff;
+  color: var(--block-text-color);
 }
 .callout-success {
   background: #75c181;
-  color: #fff;
+  color: var(--block-text-color);
 }
 .callout-warning {
   background: #F88C30;
-  color: #fff;
+  color: var(--block-text-color);
 }
 .callout-danger {
   background: #f77b6b;
-  color: #fff;
+  color: var(--block-text-color);
 }
 
 .callout-solution {
